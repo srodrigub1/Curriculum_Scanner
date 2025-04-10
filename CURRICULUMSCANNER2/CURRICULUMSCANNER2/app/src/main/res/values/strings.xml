@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CurriculumScanner</string>
+    <string name="logo_desc">Logo de Curriculum Scanner</string>
+    <string name="terms_title">TERMINOS Y CONDICIONES</string>
+
+    <string name="terms_content">
+        1. Introducción&#10;&#10;
+        [Nombre de la App] permite escanear y digitalizar hojas de vida físicas en puntos de recolección de Magneto. Al usar la App, aceptas estos Términos.&#10;&#10;
+        2. Uso de la App&#10;&#10;
+        Uso exclusivo para escaneo de hojas de vida.&#10;
+        No utilizar para fines ilegales.&#10;
+        La información proporcionada debe ser precisa.&#10;&#10;
+        3. Datos Personales&#10;&#10;
+        Los datos recopilados se usarán solo para digitalización y envío a Magneto.&#10;
+        Consulta la Política de Privacidad para más detalles.&#10;&#10;
+
+    </string>
+
+    <string name="next_button">SIGUIENTE</string>
+</resources>

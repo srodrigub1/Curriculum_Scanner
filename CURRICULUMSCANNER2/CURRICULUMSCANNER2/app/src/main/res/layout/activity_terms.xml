@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal">
+
+        <!-- Título centrado -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curriculum\nScanner"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Texto resumido de términos -->
+        <TextView
+            android:id="@+id/textViewTerms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido a CURRICULUM SCANNER. Al usar esta app aceptas los siguientes términos:\n\n1. Solo usamos tu información con fines laborales y no la compartimos sin tu permiso.\n\n2. Eres responsable de los datos que ingresas.\n\n3. Todos los derechos de esta app pertenecen a sus desarrolladores.\n\n4. Podemos actualizar estos términos en cualquier momento.\n\n5. Para dudas, escríbenos a simonestebanc23@gmail.com.\n\nGracias por confiar en CURRICULUM SCANNER."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#333333"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Botón redondeado -->
+        <Button
+            android:id="@+id/buttonSiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siguiente"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:background="@drawable/rounded_button"
+            android:padding="12dp"
+            android:layout_marginBottom="48dp" />
+    </LinearLayout>
+</ScrollView>
